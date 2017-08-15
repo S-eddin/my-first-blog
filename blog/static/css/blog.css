@@ -1,5 +1,6 @@
 body {
 padding-left; 15 px;
+background-image: url"http://jonvilma.com/images/river-2.jpg"
 } 
 
 h1 a  {
@@ -7,6 +8,7 @@ color:bf5e3b;
 padding-left: 15 px;
 margin: 20 px ;
 font-family:'Lobster';
+background-image: url"http://jonvilma.com/images/river-2.jpg"
 }
 h2 a {
 color: bf5e3b ;
@@ -18,4 +20,5 @@ p {
 
 color:f2a25c;
 font-family:'Lobster';
+background-image: url"http://jonvilma.com/images/river-2.jpg"
 }
