@@ -2,21 +2,13 @@
 
 body {
 	align-items: center;
-  background-color: #FFF;
-	display: flex;
+        background-color: #FFF;
+	 
 	font-family: 'Raleway', sans-serif;
-	flex-direction: column;
+	 
 	justify-content: center;
-	overflow: hidden;
+	 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -45,6 +37,24 @@ color: bf5e3b ;
 font-szie:100 px;
 font-family:'Lobster';
 }
+p .mgf {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width:50%;
+  }
+
+
+
+
+
+
+
 
 p.abc {
   color: #fff;

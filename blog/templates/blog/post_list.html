@@ -11,7 +11,7 @@
  </head>
  <body>
     <div class= "container">
-      <a class = "new" href="#">for nice blig visit me "Salah eddin"</a>
+      <a class = "new" href="#">for nice blog visit me "Salah eddin"</a>
     </div>
 
     {% for post in posts %}
@@ -20,7 +20,7 @@
         <p class ="abc" >published: {{ post.published_date }}</p>
         <h2class = "def">ACTIVE: {{post.is_active}}</h2>
         <a class = "ijk" href="">{{ post.title }}</a> 
-        <p>{{ post.text|linebreaksbr }}</p>
+        <p class = "mgf">{{ post.text|linebreaksbr }}</p>
      </div>
    {% endfor %}
  </body>
