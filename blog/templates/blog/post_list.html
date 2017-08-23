@@ -17,10 +17,10 @@
     {% for post in posts %}
      <div class = " salaheddin" >
          
-        <p class ="abc" >published: {{ post.published_date }}</p>
+        <p class ="publish" >published: {{ post.published_date }}</p>
          
-        <a class = "ijk" href="">{{ post.title }}</a> 
-        <h2 class = "mgf">{{ post.text|linebreaksbr }}</h2>
+        <a class = "title" href="">{{ post.title }}</a> 
+        <h2 class = "text">{{ post.text|linebreaksbr }}</h2>
      </div>
    {% endfor %}
  </body>
