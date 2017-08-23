@@ -3,20 +3,23 @@
  <head>
    <title>Salaheddin'blog </title>
    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
+    
+
    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-   <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+   
  </head>
  <body>
-    <div>
-      <h2><a href="/">for nice blig visit me "Salah eddin"</a></h2>
+    <div class= "container">
+      <a class = "new" href="#">for nice blig visit me "Salah eddin"</a>
     </div>
 
     {% for post in posts %}
      <div class = " salaheddin" >
-        <img src="http://jonvilma.com/images/river-2.jpg">
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
+         
+        <p class ="abc" >published: {{ post.published_date }}</p>
+        <h2class = "def">ACTIVE: {{post.is_active}}</h2>
+        <a class = "ijk" href="">{{ post.title }}</a> 
         <p>{{ post.text|linebreaksbr }}</p>
      </div>
    {% endfor %}
