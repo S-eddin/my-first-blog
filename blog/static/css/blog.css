@@ -89,6 +89,35 @@ a.new:hover {
 	transition: box-shadow 1s ease;
 }
 
+div.container {
+
+        align-items: center;
+        background-color: #FFF;
+	 
+	font-family: 'Raleway', sans-serif;
+	 
+	display: flex;
+	 
+	flex-direction: column;
+	justify-content: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
