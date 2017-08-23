@@ -18,9 +18,9 @@
      <div class = " salaheddin" >
          
         <p class ="abc" >published: {{ post.published_date }}</p>
-        <h2class = "def">ACTIVE: {{post.is_active}}</h2>
+         
         <a class = "ijk" href="">{{ post.title }}</a> 
-        <p class = "mgf">{{ post.text|linebreaksbr }}</p>
+        <h2 class = "mgf">{{ post.text|linebreaksbr }}</h2>
      </div>
    {% endfor %}
  </body>
