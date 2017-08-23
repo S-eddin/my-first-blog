@@ -1,11 +1,8 @@
-html, body {
-	height: 100%;
-	width: 100%;
-}
+
 
 body {
 	align-items: center;
-  background-color: #abcdef;
+  background-color: #FFF;
 	display: flex;
 	font-family: 'Raleway', sans-serif;
 	flex-direction: column;
