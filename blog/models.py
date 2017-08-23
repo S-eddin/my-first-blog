@@ -10,7 +10,7 @@ class Post(models.Model):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     
-    is_active = models.BooleanField()
+    
     text = models.TextField()
     
     created_date = models.DateTimeField(
