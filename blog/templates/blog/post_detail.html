@@ -11,5 +11,7 @@
           <a class = "title" href="">{{ post.title }}</a> 
           <h2 class = "text">{{ post.text|linebreaksbr }}</h2>
         </div>
+        </div>
+          <a class = "title" href="{% url 'post_edit' post_number=post.pk %}">EDIT</a>
       
    {% endblock %} 

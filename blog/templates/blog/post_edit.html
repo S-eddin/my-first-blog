@@ -1,9 +1,15 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-    <h1 class = "publish" >New post</h1>
+
+
+    <lable for "name"> Hello Slah </lable>
+    <input type ="text" id="name" name ="user_name">
+     
+   <h1>New post</h1>
     <form method="POST">{% csrf_token %}
         {{ form.as_p }}
         <button type="submit" >Save</button>
+      
     </form>
 {% endblock %}
