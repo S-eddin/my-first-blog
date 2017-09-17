@@ -1,17 +1,18 @@
  
 {% extends 'blog/base.html' %}
   {% block content %}
-        <h1> {{post.published_date }}</h1>
-    
+        <h1 class ="publish"> {{post.published_date }}</h1>
+        
       
         <div class = " salaheddin" >
+ 
          
           <p class ="publish" > published: {{ post.published_date }}</p>
          
           <a class = "title" href="">{{ post.title }}</a> 
           <h2 class = "text">{{ post.text|linebreaksbr }}</h2>
         </div>
-        </div>
+        
           <a class = "title" href="{% url 'post_edit' post_number=post.pk %}">EDIT</a>
       
    {% endblock %} 

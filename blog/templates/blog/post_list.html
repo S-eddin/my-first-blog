@@ -5,6 +5,7 @@
         <div class = " salaheddin" >
          
           <p class ="publish" >published: {{ post.published_date }}</p>
+          <p class ="publish" >Author: {{ post.author}}</p>
          
           <h1> <a class = "title" href="{% url 'post_detail' post_number=post.pk %}">{{ post.title }}</a> </h1> 
           <h2 class = "text">{{ post.text|linebreaksbr }}</h2>
