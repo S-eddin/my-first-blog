@@ -3,13 +3,14 @@
 {% block content %}
 
 
-    <lable for "name"> Hello Slah </lable>
-    <input type ="text" id="name" name ="user_name">
+  
      
-   <h1>New post</h1>
-    <form method="POST">{% csrf_token %}
+   <h1 class = "title" >New post</h1>
+    <div class = "salaheddin">
+      <form method="POST" >{% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" >Save</button>
+        <button type="submit" >SAFE</button>
       
-    </form>
+     </form>
+    </div>
 {% endblock %}
