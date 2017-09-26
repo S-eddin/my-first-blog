@@ -10,10 +10,21 @@
    
  </head>
  <body>
+   
     <div class= "container">
       <a class = "new" href="{% url 'post_list' %}">for nice web apps visit me "Salah-eddin"</a>
+     
+     
+
     </div>
-    <a href = "{% url 'post_new' %}" class = "title"> new post </a>
+
+      <div  class ="dateS" > <a href = "{% url 'post_new' %}" > New Post </a> 
+     </div>
+     <div class = "dateS" > <a href ="{% url 'post_list' %}" > Post List  
+
+       </a> 
+     </div>
+     
 
       {% block content  %}
     

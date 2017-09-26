@@ -1,10 +1,12 @@
  
 {% extends 'blog/base.html' %}
   {% block content %}
-        <h1 > {{post.published_date }}</h1>
+       
         
       
         <div class = " salaheddin" >
+
+         
  
          
           <p class ="publish" > published: {{ post.published_date }}</p>
@@ -15,5 +17,13 @@
         </div>
         
           <a class = "title" href="{% url 'post_edit' post_number=post.pk %}">EDIT</a>
-      
+      {% for comment in post.comments.all %}
+         <div>
+             <div class = "date" > {{comment.created_date }} </div>
+             <strong>{{ comment.author }}</strong> 
+             <p>{{ comment.text }}</p>
+         </div>
+      {% empty %}
+        <p> No Comment </p>
+      {% endfor %}   
    {% endblock %} 
