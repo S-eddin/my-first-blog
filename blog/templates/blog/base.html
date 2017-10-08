@@ -12,18 +12,21 @@
  <body>
    
     <div class= "container">
-      <a class = "new" href="{% url 'post_list' %}">for nice web apps visit me "Salah-eddin"</a>
-     
-     
-
+      <a class = "new" href="{% url 'post_list' %}">for nice web apps visit me "Salah-eddin"</a> 
     </div>
+     
+     
 
-      <div  class ="dateS" > <a href = "{% url 'post_new' %}" > New Post </a> 
-     </div>
-     <div class = "dateS" > <a href ="{% url 'post_list' %}" > Post List  
+    
 
-       </a> 
-     </div>
+      <div class = dateS ><p > <a href = "{% url 'post_new' %}" > New Post </a>
+       </p></div>
+       
+     
+     <div class = dateS><p  > <a href ="{% url 'post_list' %}" > Post List  
+
+       </a> </p></div> 
+     
      
 
       {% block content  %}
