@@ -20,15 +20,35 @@ div.dateS {
        
         
 
-         color: #000;
+         color:maroon;
          font-family: 'Playfair Display', serif;
          font-size: 30px;
          font-weight: 900;
          line-height: 46px;
-         margin: 0px 375px 1px 1px;
+         margin: 5px 360px 5px 5px;
          text-align:center;
          text-shadow: 0px 2px 4px rgba(34,62,66,.75);
          width:50%;
+         background: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg') center center;
+}   
+
+div.date {
+        
+         
+    
+       
+        
+
+         color:maroon;
+         font-family: 'Playfair Display', serif;
+         font-size: 30px;
+         font-weight: 900;
+         line-height: 46px;
+         margin:5px 5px 0 345px;
+         text-align:center;
+         text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+         width:50%;
+         background: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg') center center;
 }   
 
  
@@ -127,7 +147,7 @@ div.container {
 	 
 	flex-direction: column;
 	
-        margin:20px 10px 30px 10px ;
+        margin:0 0 5px 0 ;
     }
 
  align-items: center;
