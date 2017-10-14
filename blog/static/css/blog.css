@@ -20,7 +20,7 @@ div.dateS {
        
         
 
-         color:maroon;
+         color: maroon;
          font-family: 'cursive', serif;
          font-size: 30px;
          font-weight: 900;
@@ -39,12 +39,12 @@ div.date {
        
         
 
-         color:maroon;
+         color: maroon;
          font-family: 'cursive', serif;
          font-size: 30px;
          font-weight: 900;
          line-height: 46px;
-         margin:0px 0px 5 0px;
+         margin:-200px 0px 5 0px;
          text-align:center;
          text-shadow: 0px 2px 4px rgba(34,62,66,.75);
          width:50%;
@@ -57,17 +57,52 @@ div.DATA {
        
         
 
-         color:maroon;
+         color: maroon;
          font-family: 'cursive', serif;
          font-size: 30px;
-         font-weight: 900;
+ 
          line-height: 46px;
          margin:5px 0 5px 0;
          text-align:center;
-         text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+
          width:100%;
          background: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg') center center;
-}     
+}
+
+.DATA a {
+color: maroon;
+}
+
+.dateS a {
+color: maroon;
+}
+.date a {
+color: maroon;
+}
+
+.Ads 
+{
+border: 2px dotted white;
+height: 200px;
+margin: 10px 530px 15px 0px;
+width: 130px;
+background:url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg') center center ;
+
+
+
+}
+
+.Ads p {
+color: maroon;
+font-family: 'cursive', serif;
+text-align: center;
+padding-top: 28px;
+
+}
+
+
+ 
+    
 
  
 	 
@@ -137,7 +172,7 @@ p.publish {
         font-family: 'cursive', serif;
 	border-radius: 100px;
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
-  color: #fff;
+  color: maroon;
   font-size: 25px;
   letter-spacing: 4px;
   padding: 32px 32px;
@@ -157,7 +192,7 @@ div.container {
        
 
        
-        background-color: #FFF;
+        background-color: maroon;
 	 
 	font-family: 'Raleway', sans-serif;
 	 
@@ -165,7 +200,7 @@ div.container {
 	 
 	flex-direction: column;
 	
-        margin:0 0 5px 0 ;
+        margin:0 0 18px 0 ;
     }
 
  align-items: center;
