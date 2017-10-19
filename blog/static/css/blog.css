@@ -90,14 +90,11 @@ z-index: 10;
 color: #9bbfcf;
 display: inline-block;
 margin: 0 100px;
- 
-	
-	
-	
-	
 }
 
-
+.fixed .special {
+font-size: 30px;
+}
 
 
 .date a {
