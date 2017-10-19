@@ -83,13 +83,15 @@ background-color: black;
 text-align: center;
 margin: 10px 0;	
 position: fixed;
-	
+z-index: 10;	
 	
 }
 .fixed li {
 color: #9bbfcf;
 display: inline-block;
 margin: 0 100px;
+font-family: 'Anton', sans-serif;
+	
 	
 	
 	
