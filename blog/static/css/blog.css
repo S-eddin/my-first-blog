@@ -76,6 +76,20 @@ color: maroon;
 .dateS a {
 color: maroon;
 }
+
+.fixed {
+width: 100%;
+background-color: black;
+	
+}
+.fixed li {
+color: #9bbfcf;
+display: inline-block;	
+}
+
+
+
+
 .date a {
 color: maroon;
 }
