@@ -80,11 +80,16 @@ color: maroon;
 .fixed {
 width: 100%;
 background-color: black;
+text-align: cenetr;
+margin: 10px 0;	
+	
 	
 }
 .fixed li {
 color: #9bbfcf;
-display: inline-block;	
+display: inline-block;
+	
+	
 }
 
 
